@@ -5,8 +5,8 @@ font-family: 'Roboto', sans-serif; */
  #212121;
  #FFFFFF;
  #757575;
- #2196F3;  logo
- #000000;  logo
+ #2196F3; 
+ #000000;  
   */
 
 body {
@@ -15,8 +15,13 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
- }
- ul { list-style: none; }
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
 .contakt-item,
 .adr-list {
   font-size: 14px;
@@ -43,6 +48,9 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+.nav-list:hover {
+  color: #2196f3;
+}
 .nav-link,
 .item-mail,
 .item-tel {
@@ -55,16 +63,17 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav-link-studia,.nav-link-portfolio {
-  color: #2196f3;
+.nav-link:hover {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.02em;S
+  letter-spacing: 0.02em;
+  color: #2196f3;
 }
+
 .hero {
   background: #2f303a;
   font-weight: 900;
@@ -79,14 +88,17 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  cursor: pointer;
 }
+
 .footer {
   background-color: #2f303a;
 }
@@ -101,31 +113,25 @@ body {
 .footer-link-tel {
   font-size: 14px;
   line-height: 1.7;
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
-
-<!-- секция портфолио -- > 
-.portf-btn-list {
-    background-color: 
-    #F5F4FA;
-    border-radius: 4px;;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-          text-align: center;
-    letter-spacing: 0.03em;
-        color: #212121;
-    
 
 .btn-item {
-  cursor: pointer;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.btn-activ {
+.btn-item:hover,
+:focus {
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -135,17 +141,35 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
-  cursor: pointer;
 }
 .portfolio-title {
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 .portfolio-item {
-      font-size: 16px;
-    line-height: 1.9;
-         letter-spacing: 0.03em;
-        color: #757575;
-      }
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer-nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.adr-contakt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

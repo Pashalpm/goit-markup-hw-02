@@ -39,7 +39,14 @@ body {
 .logo-color {
   color: var(--accent-col);
 }
+
 .nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   color: var(--color-title);
 }
 .nav-link:hover {
@@ -51,8 +58,10 @@ body {
 .item-mail,
 .item-tel {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--color-content);
 }
@@ -71,6 +80,9 @@ body {
 }
 
 .main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
@@ -119,11 +131,13 @@ body {
 /*  Чем мы занимаемся, Наша команда*/
 .title-foto,
 .title-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--color-title);
 }
 .team {
@@ -143,7 +157,6 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-
   letter-spacing: 0.03em;
   color: var(--color-white);
 }
@@ -159,9 +172,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link-mail:hover {
@@ -193,7 +204,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -203,6 +213,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-item {
   font-family: Roboto;
@@ -210,6 +221,5 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
-
   letter-spacing: 0.03em;
 }

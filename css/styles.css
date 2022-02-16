@@ -67,6 +67,7 @@ body {
 }
 .hero {
   background-color: var(--primary-bg);
+  text-align: center;
 }
 
 .main-title {
@@ -90,7 +91,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -185,7 +186,7 @@ body {
   color: var(--color-white);
 }
 .btn-item {
-  background: #f5f4fa;
+  background-color: var(--secondary-bg);
   border-radius: 4px;
   font-family: Roboto;
   font-style: normal;

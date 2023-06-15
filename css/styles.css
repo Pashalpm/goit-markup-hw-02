@@ -1,19 +1,61 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --primary-black-color: #434455;
+  --titlt-black-color: #2e2f42;
+  --background-color: #ffffff;
+  --background-futer-hero: #2e2f42;
+  --button-color: #4d5ae5;
+  --hover-link-color: #404bbf;
+}
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-black-color);
+  font-size: 16px;
+  background-color: var(--background-color);
+  line-height: 1.5;
+}
+
 /**
   |============================
-  | heder
+  | header
   |============================
 */
-.header-nav {
+.header {
+  background-color: var(--backgraund-heder-color);
 }
-.link-logo {
+.header-nav {
+  background-color: var(--background-color);
+}
+.link-logo-header {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
 }
 .header-logo {
+  color: #4d5ae5;
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.header-link:hover {
+  color: var(--hover-link-color);
+}
+.header-link:focus {
+  color: var(--hover-link-color);
 }
 .adr {
 }
@@ -22,7 +64,22 @@
 .adr-item {
 }
 .adr-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #434455;
+  text-decoration: none;
 }
+.adr-link:hover {
+  color: var(--hover-link-color);
+}
+.adr-link:focus {
+  color: var(--hover-link-color);
+}
+
 /**
   |============================
   | main
@@ -34,8 +91,15 @@
   |============================
 */
 .section-solutions {
+  background-color: var(--background-futer-hero);
 }
 .title-solutions {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
 }
 .btn {
 }
@@ -88,12 +152,31 @@
   |============================
 */
 .footer {
+  background-color: var(--background-futer-hero);
 }
-.link-logo {
+.link-logo-futer {
+  font-family: var(--logo-font);
+  width: 44px;
+  height: 21px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 .footer-logo {
+  color: #f4f4fd;
 }
 .footer-text {
+  font-family: 'Roboto';
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #f4f4fd;
 }
 /**
   |============================

@@ -28,6 +28,17 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 /**
   |============================
   | header
@@ -185,14 +196,8 @@ body {
 .footer {
   background-color: var(--background-futer-hero);
 }
-.link-logo-futer {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  text-transform: uppercase;
+.logo-futer {
   color: #4d5ae5;
-  text-decoration: none;
 }
 .footer-logo {
   color: #f4f4fd;

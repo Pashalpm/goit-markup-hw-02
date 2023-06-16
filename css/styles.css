@@ -257,7 +257,9 @@ body {
   color: var(--background-color);
   cursor: pointer;
 }
-.item-img {
+.item-row {
+}
+.list-row .link img {
 }
 .row-title {
 }

@@ -14,15 +14,12 @@ body {
   font-size: 16px;
   background-color: var(--background-color);
   line-height: 1.5;
-  list-style: none;
 }
 .title {
   letter-spacing: 0.02em;
   color: var(--titlt-black-color);
 }
 .text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -43,7 +40,7 @@ body {
   background-color: var(--background-color);
 }
 .link-logo-header {
-  font-family: 'Raleway';
+  font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -59,7 +56,6 @@ body {
 .header-item {
 }
 .header-link {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -77,8 +73,6 @@ body {
 .adr-item {
 }
 .adr-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -105,17 +99,14 @@ body {
   background-color: var(--background-futer-hero);
 }
 .title-solutions {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
   text-align: center;
   color: #ffffff;
 }
 .btn {
   background-color: var(--button-color);
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -142,8 +133,6 @@ body {
 .advantages-item {
 }
 .advantages-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -158,11 +147,9 @@ body {
 .section-waw {
 }
 .waw-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 1;
+  line-height: 1, 11;
   text-align: center;
   text-transform: capitalize;
 }
@@ -176,11 +163,9 @@ body {
   |============================
 */
 .team-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
 }
@@ -202,9 +187,6 @@ body {
 }
 .link-logo-futer {
   font-family: var(--logo-font);
-  width: 44px;
-  height: 21px;
-  font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -216,8 +198,6 @@ body {
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -240,8 +220,6 @@ body {
 }
 .view-btn {
   background-color: #f4f4fd;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

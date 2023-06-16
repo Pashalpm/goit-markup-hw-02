@@ -57,7 +57,6 @@ body {
   line-height: 1.16;
   text-transform: uppercase;
   color: #2e2f42;
-  text-decoration: none;
 }
 .header-logo {
   color: var(--background-futer-hero);
@@ -70,6 +69,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
@@ -78,6 +78,7 @@ body {
   color: var(--hover-link-color);
 }
 .adr {
+  font-style: normal;
 }
 .adr-list {
 }

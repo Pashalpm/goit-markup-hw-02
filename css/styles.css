@@ -14,8 +14,23 @@ body {
   font-size: 16px;
   background-color: var(--background-color);
   line-height: 1.5;
+  list-style: none;
 }
-
+.title {
+  letter-spacing: 0.02em;
+  color: var(--titlt-black-color);
+}
+.text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
 /**
   |============================
   | header
@@ -51,9 +66,7 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.header-link:hover {
-  color: var(--hover-link-color);
-}
+.header-link:hover,
 .header-link:focus {
   color: var(--hover-link-color);
 }
@@ -73,9 +86,7 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.adr-link:hover {
-  color: var(--hover-link-color);
-}
+.adr-link:hover,
 .adr-link:focus {
   color: var(--hover-link-color);
 }
@@ -102,7 +113,23 @@ body {
   color: #ffffff;
 }
 .btn {
+  background-color: var(--button-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
 }
+.btn:hover,
+.btn:focus {
+  background-color: var(--hover-link-color);
+}
+
 /**
   |============================
   | advantages
@@ -115,6 +142,11 @@ body {
 .advantages-item {
 }
 .advantages-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 .advantages-text {
 }
@@ -126,6 +158,13 @@ body {
 .section-waw {
 }
 .waw-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 1;
+  text-align: center;
+  text-transform: capitalize;
 }
 .list-waw {
 }
@@ -137,6 +176,13 @@ body {
   |============================
 */
 .team-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
 }
 .list-team {
 }
@@ -171,10 +217,11 @@ body {
 }
 .footer-text {
   font-family: 'Roboto';
-  /* font-style: normal; */
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: #f4f4fd;
 }
@@ -191,7 +238,24 @@ body {
 }
 .item-btn {
 }
-.list-img {
+.view-btn {
+  background-color: #f4f4fd;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+}
+.view-btn:hover,
+.view-btn:focus {
+  background-color: var(--hover-link-color);
+  color: var(--background-color);
+  cursor: pointer;
 }
 .item-img {
 }

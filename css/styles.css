@@ -60,7 +60,7 @@ body {
   text-decoration: none;
 }
 .header-logo {
-  color: #4d5ae5;
+  color: var(--background-futer-hero);
 }
 .header-list {
 }
@@ -196,7 +196,8 @@ body {
 .footer {
   background-color: var(--background-futer-hero);
 }
-.logo-futer {
+.logo-futer,
+.logo-header {
   color: #4d5ae5;
 }
 .footer-logo {

@@ -42,13 +42,15 @@ body {
 .header-nav {
   background-color: var(--background-color);
 }
-.logo-header {
+.logo-header,
+.logo-futer {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
-  color: #2e2f42;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 .header-logo {
   color: var(--background-futer-hero);
@@ -107,6 +109,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   color: #ffffff;
 }
 .btn {
@@ -154,6 +157,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 .list-waw {
 }
@@ -169,6 +173,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 .section-team {
   background-color: #f4f4fd;
@@ -193,10 +198,7 @@ body {
 .footer {
   background-color: var(--background-futer-hero);
 }
-.logo-futer,
-.logo-header {
-  color: #4d5ae5;
-}
+
 .footer-logo {
   color: #f4f4fd;
 }
@@ -222,6 +224,7 @@ body {
 .item-btn {
 }
 .view-btn {
+  font-family: var(--primary-font);
   background-color: #f4f4fd;
   font-weight: 500;
   font-size: 16px;
@@ -240,6 +243,10 @@ body {
 .list-row {
 }
 .row-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .row-text {
 }

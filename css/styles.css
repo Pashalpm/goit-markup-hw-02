@@ -29,14 +29,6 @@ body {
   list-style: none;
 }
 .link {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   text-decoration: none;
 }
 /**
@@ -50,7 +42,7 @@ body {
 .header-nav {
   background-color: var(--background-color);
 }
-.link-logo-header {
+.logo-header {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
@@ -88,6 +80,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: #434455;
   text-decoration: none;
@@ -114,19 +107,17 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   color: #ffffff;
 }
 .btn {
+  font-family: var(--primary-font);
   background-color: var(--button-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-
   color: #ffffff;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -161,8 +152,7 @@ body {
 .waw-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
-  text-align: center;
+  line-height: 1.11;
   text-transform: capitalize;
 }
 .list-waw {
@@ -178,14 +168,20 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
+}
+.section-team {
+  background-color: #f4f4fd;
 }
 .list-team {
 }
 .team-item {
+  background-color: var(--background-color);
 }
 .team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 .team-text {
 }
@@ -230,9 +226,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--button-color);
 }
@@ -244,7 +237,7 @@ body {
 }
 .item-row {
 }
-.list-row .link img {
+.list-row {
 }
 .row-title {
 }
